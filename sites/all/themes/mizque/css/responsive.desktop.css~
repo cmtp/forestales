@@ -1,0 +1,73 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+
+
+#logo {
+	position: absolute;
+	z-index: 1;
+	background: white;
+	top: 0px;
+}
+
+#block-superfish-1 {
+width: 80%;
+float: right;
+}
+
+
+#cabecera .container{
+	width: 100%;
+	max-width: 1400px;
+}
+
+#cabecera .container{
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+#cabecera .block-inner.clearfix {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+.views-field.views-field-field-descripci-n {
+	position: absolute;
+	top: 250px;
+	right: 200px;
+	color: white;
+	font-size: 50px;
+}
+
+#block-block-6 {
+width: 70%;
+margin: auto;
+padding-top: 10px;
+}
+
+tr.even, tr.odd{
+	background-color: #FFF;
+	border-bottom: 0px solid #ccc;
+}
+
+#contenido .container{
+	border-top: 1px solid gray !important;
+}
+
+.region.region-sidebar-second.sidebar {
+	border-left: 1px solid gray;
+	width: 24%;
+}
+
+
+.responsive-menus.responsified span.toggler, .responsive-menus.responsified .responsive-menus-simple{
+	background: #003300;
+}
+
+

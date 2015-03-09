@@ -1,0 +1,198 @@
+/*
+
+ * Target IE 6, 7 and 8 (less than IE9)
+
+ */
+
+/*
+
+ * Assuming a mobile first approach with respond.js OFF, we must reset the font
+
+ * size for lt IE9
+
+ */
+
+html {
+
+  font-size: 81.3%;
+  }
+  #logotipo
+  {
+	width:151px;
+    z-index:10;
+	position:absolute;
+ }
+ #logotipo .container
+ {
+	padding-left:65px;
+ }
+ #logo
+ {
+ }
+ #menu-principal
+ {
+	float:right;
+	width:100%;
+	z-index:-10;
+	padding-right:95px;
+ }
+ .html.front.logged-in.one-sidebar.sidebar-second.page-inicio.page-views #cabecera
+ {
+ padding-bottom:0px!important;
+ }
+ .html.front.not-logged-in.one-sidebar.sidebar-second.page-inicio.page-views #cabecera
+ {
+ padding-bottom:0px !important;
+ }
+ #cabecera
+ {
+	padding-bottom:80px;
+ }
+ .flexslider
+ {
+	top:94px !important;
+ }
+ #block-superfish-1
+ {
+	width:100%;
+	padding-left:220px;
+ }
+ #block-views-slider-front-block
+ {
+	margin-bottom:120px !important;
+ }
+ #icono
+ {
+ /*-webkit-border-radius:100px;
+ -moz-border-radius:100px;
+ border-radius:100px;
+ 
+ -webkit-box-shadow: #aaa 0px 0px 0px;
+ -moz-box-shadow: #aaa 0px 0px 0px;
+ box-shadow: #aaa 0px 0px 0px;
+
+ behavior: url(PIE.htc);*/
+ 
+ float:left;
+ margin:15px 20px;
+ }
+ 
+ #icono:hover
+ {
+ /*-webkit-border-radius:100px;
+ -moz-border-radius:100px;
+ border-radius:100px;
+ 
+ -webkit-box-shadow: #aaa 0px 0px 0px;
+ -moz-box-shadow: #aaa 0px 0px 0px;
+ box-shadow: #aaa 0px 0px 0px;
+
+ behavior: url(PIE.htc);*/
+ 
+ float:left;
+ margin:15px 20px; 
+}
+
+ #icono img {
+	padding: 17px;
+	padding-bottom:0px;
+}
+ #block-block-4
+ {
+	width:100%;
+ }
+ .cliente {
+width: 100%;
+/*background: rgba(2, 41, 2, 0.6);*/
+background:rgb(2 ,41 ,2);
+filter: alpha(opacity=60);
+}
+#region-preface1:hover, #region-preface2:hover, #region-preface3:hover {
+box-shadow: 7px 7px 12px #B6B6B6;
+-moz-box-shadow: 3px 3px 4px #111;
+-webkit-box-shadow: 3px 3px 4px #111;
+box-shadow: 3px 3px 4px #111;
+/* IE 8 */
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color='#B6B6B6')";
+/* IE 5.5 - 7 */
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color='#B6B6B6');
+-webkit-transition: all 0.7s ease;
+-moz-transition: all 0.7s ease;
+-o-transition: all 0.7s ease;
+-ms-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+#block-user-login
+{
+padding-left:20px;
+padding-right:20px;
+}
+#block-views-enlaces-de-interes-block
+{
+padding-left:20px;
+padding-right:20px;
+}
+#block-views-calendar-block-1
+{
+padding-left:20px;
+padding-right:20px;
+}
+.flex-control-nav.flex-control-paging a
+{
+ -webkit-border-radius:100px;
+ -moz-border-radius:100px;
+ border-radius:100px;
+ 
+ -webkit-box-shadow: #aaa 0px 0px 0px;
+ -moz-box-shadow: #aaa 0px 0px 0px;
+ box-shadow: #aaa 0px 0px 0px;
+
+ behavior: url(PIE.htc);
+}
+
+#block-menu-menu-mizque
+{
+padding-left:20px;
+padding-right:20px;
+}
+#block-system-user-menu
+{
+padding-left:20px;
+padding-right:20px;
+}
+#block-views-contacto-block
+{
+padding-left:20px;
+padding-right:20px;
+}
+#block-views-turismo-block
+{
+padding-left:20px;
+padding-right:20px;
+}
+#block-menu-menu-menu-comunidad
+{
+padding-left:20px;
+padding-right:20px;
+}
+#block-menu-menu-menu-servicio-en-linea
+{
+padding-left:20px;
+padding-right:20px;
+}
+#block-block-8
+{
+padding-left:20px;
+padding-right:20px;
+}
+.views-field.views-field-field-banner-descripcion
+{
+z-index: 3;
+position: absolute;
+bottom: 26%;
+right: 10%;
+color: white;
+font-size: 48px;
+font-weight: lighter;
+text-shadow: 1px 1px #000000;
+}

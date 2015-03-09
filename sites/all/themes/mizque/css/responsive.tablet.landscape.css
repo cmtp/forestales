@@ -1,0 +1,171 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete 
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+ 
+#block-superfish-1 {
+	width: 80% !important;
+	float: right;
+}
+ul.menu li#menu-227-1.active-trail a{	
+	background-position: -6px -94px !important;
+}
+.block-superfish li {
+	min-width: 110px !important;}
+
+#logo {
+position: absolute;
+z-index: 1;
+background: white;
+top: 0px !important;
+left: 0px !important;
+max-width: 107px !important; 
+border: solid 2px #e6e6e6;
+}
+
+#block-superfish-1 {
+width: 89% !important;
+float: right;
+}
+ 
+ #cabecera .block-inner.clearfix {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+.views-field.views-field-field-banner-descripcion {
+	z-index: 3;
+	position: absolute;
+	bottom: 15%;
+	right: 5%;
+	color: white;
+	font-size: 48px;
+	font-weight: lighter;
+	text-shadow: 1px 1px #000000;
+}
+
+.flex-control-nav {
+	width: 100%;
+	position: absolute;
+	bottom: 0px !important;
+	text-align: center;
+}
+ 
+ #region-preface1, #region-preface2, #region-preface3{
+	float: left;
+    width: 28%;
+  }
+  
+.sidebar-second .content-inner {
+	margin-right: 20%;
+	margin-left: 0;
+	width: 75%;
+}
+
+#block-block-4 {
+	width: 33%;
+	float: left;
+	width: 100% !important;
+	margin: auto !important;
+}
+
+.region-sidebar-second {
+	width: 20%;
+	margin-left: -25% !important;
+}
+
+.region.region-sidebar-second.sidebar {
+background: white;
+padding-top: 25px;
+margin-bottom: 25px;
+width: 23% !important;
+}
+
+
+.region-sidebar-second .region-inner.clearfix {
+	padding: 0px 0px !important;
+	width: 95% !important;
+	margin: auto !important;
+}
+  
+  #slider img {
+	border: 0px !important;
+}
+
+
+.views-column-galeria{
+	width: 45%;
+	margin: 5px 3px; 
+}
+
+#fotos  img {
+	margin: 0px 5px;
+	width: 22%;
+}
+
+#main-content h1 {
+margin: 20px 8px;
+}
+
+
+.responsive-menus.responsified span.toggler, .responsive-menus.responsified .responsive-menus-simple{
+	background: #003300;
+}
+
+
+.views-field.views-field-field-descripci-n {
+	position: absolute;
+	top: 250px;
+	right: 100px;
+	color: white;
+	font-size: 50px;
+}
+#icono {
+	border: solid 5px #E8E8E8;
+	background:#388538 !important;
+	width: 103px !important;
+	height: 105px;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	-ms-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+	float: left;
+	text-align: justify;
+	border-radius: 100px;
+	margin: 15px 2.3%;
+}
+
+#icono:hover{
+	background:#388538 !important;
+	border: solid 5px #143114;
+	width: 103px !important;
+}
+
+#icono img
+{
+	padding:17px;
+}
+
+#block-block-6 .block-content.content a {
+	float: left;
+	width: 15%;
+	margin-left: -15px;
+}
+
+
+#foot-1 {
+	margin-bottom: -50px !important;
+}
+#responsiva {
+overflow: auto !important;
+}
+
+#edit-actions {
+width: 20% !important;
+}

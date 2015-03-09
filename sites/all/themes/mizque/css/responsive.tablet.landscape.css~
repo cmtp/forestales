@@ -1,0 +1,61 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete 
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+ 
+#block-superfish-1 {
+width: 80%;
+float: right;
+}
+
+#logo {
+	position: absolute;
+	z-index: 1;
+	background: white;
+	top: 0px;
+	left: 31px;
+} 
+ 
+ 
+ #region-preface1, #region-preface2, #region-preface3{
+	float: left;
+    width: 33%;
+  }
+  
+  #slider img {
+	border: 0px !important;
+}
+
+
+.views-column-galeria{
+	width: 45%;
+	margin: 5px 3px; 
+}
+
+#fotos  img {
+	margin: 0px 5px;
+	width: 22%;
+}
+
+#main-content h1 {
+margin: 20px 8px;
+}
+
+
+.responsive-menus.responsified span.toggler, .responsive-menus.responsified .responsive-menus-simple{
+	background: #003300;
+}
+
+
+.views-field.views-field-field-descripci-n {
+	position: absolute;
+	top: 250px;
+	right: 100px;
+	color: white;
+	font-size: 50px;
+}

@@ -1,0 +1,105 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the body font size on small devices */
+html {
+  font-size: 81.3%;
+}
+
+#branding {
+	float: none !important;
+}
+
+#logo {
+	margin: auto !important;
+	width: 20%;
+}
+
+#nav-wrapper {
+	width: 25%;
+	margin: auto;
+	float: none;
+}
+
+#slider img {
+	border: 0px !important;
+}
+
+#region-preface1, #region-preface2, #region-preface3{
+	float: none;
+    width: 100%;
+	z-index:1;
+
+  }
+  
+#region-preface1 img, #region-preface2 img, #region-preface3 img{
+}
+
+#region-preface1 .region-inner, #region-preface2 .region-inner, #region-preface3 .region-inner{
+	width: 100%;
+}
+
+#region-preface1 p, #region-preface2 p, #region-preface3 p {
+	font-size: 25px;
+}
+
+#main-content h1{
+	margin: 20px 10px;
+	font-size: 37px;
+	text-align: center;
+}
+
+.region.region-two-50-first, .region.region-two-50-second{
+	width: 100%;
+}
+
+.region.region-two-50-second p{
+	text-align: center;
+}
+
+.views-column-galeria{
+	width: 99.1%;
+	padding: 0px !important;
+}
+
+
+.views-column-galeria .field-content {
+font-size: 22px;
+}
+
+#fotos img {
+	width: 45%;
+	margin: 5px 5px;
+}
+
+.field-item.even {
+	font-size: 12px;
+}
+
+
+.responsive-menus.responsified span.toggler, .responsive-menus.responsified .responsive-menus-simple{
+	background: #003300;
+}
+
+.responsive-menus.responsified .responsive-menus-simple li a.active{
+	background: #005b00 !important;
+}
+
+#rm-removed .block-inner.clearfix{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.views-field.views-field-field-descripci-n {
+	position: absolute;
+	top: 150px;
+	right: 5px;
+	color: white;
+	font-size: 30px;
+}

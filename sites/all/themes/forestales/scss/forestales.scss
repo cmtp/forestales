@@ -1,0 +1,293 @@
+/* @file
+ * This file is a custom file that loads all files. Each non-base layer
+ * can be disabled.
+ *
+ * Do not name this file, "app.scss". If you run a compass update this file can
+ * be wiped out with a compass update. By default, when a compass project is
+ * created the file will be named app.scss. Thus this file is named,
+ * THEMENAME.scss.
+ *
+ * This application file (THEMENAME.scss) is where all the partials are
+ * imported.
+ *
+ * Theme styles are categorized using SMACSS standards. They utilize
+ * categorization of styles into various categories. Those categories are the
+ * following:
+ *
+ * - Base: CSS reset/normalize plus HTML element styling.
+ * - Layout: Macro arrangement of a web page, including any grid systems.
+ * - Component: Dictate minor layout modules or reusable elements.
+ * - State: Describe the appearance of a module in various states.
+ * - Theme: Purely visual optional styling ("look-and-feel") for a component.
+ *
+ * For more information about this new Drupal css file standard, please review
+ * the following:
+ * - https://drupal.org/node/1887922
+ * - http://smacss.com/
+ */
+
+// Base
+//
+// Init file contains required imports. Here's where we include normalize,
+// foundation and also compass.
+@import "base/init";
+// Import our mixins early so they can be used by other partials.
+@import "base/mixins";
+//
+// Common file is where you place common utility classes to extend or
+// parametrics. Optional file.
+@import "base/common";
+//
+// Fix for some Drupal CSS quirks (Drupalisms).
+@import "base/drupal";
+//
+// Styling for elements.
+@import "base/elements";
+//
+//@import "settings";
+// Layout
+//
+// Each section of the document has it's own partial seperated out to improve
+// developer experience. Additionally, grids can be declared in layouts as well.
+@import "layout/header";
+@import "layout/main";
+@import "layout/aside";
+@import "layout/triptych";
+@import "layout/footer";
+
+// Components
+// @import "components/buttons";
+// @import "components/type";
+// @import "components/forms";
+// @import "components/foundation-icons";
+
+// Themes
+// @import "theme/button-light";
+
+// IE8 Grid Support
+//@import "ie";
+body {
+	background-color: #e8e8e8;
+}
+h1 {
+  font-size:2.4em;
+  color: $primary-color;
+}
+h2 {
+	font-size: 1.3em;
+}
+#menu-forestales {
+	color: white;
+
+}
+.noticia-teaser {
+	background-color:#ffffff;
+	border: solid 1px #908F8F;
+	margin-bottom: 20px;
+	min-height:165px;
+	a:hover {
+		text-decoration:underline;
+	}
+}
+.span-enlace-relacionado {
+	.columns {
+		padding-left:0px;
+		padding-right:0px;
+	}
+}
+.bloque-relacionados {
+	//background: #fff;
+}
+.icono {
+	border: solid 5px #E8E8E8;
+	background: #C9C9C9 !important;
+	width: 103px !important;
+	height: 105px;
+	float:left;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	-ms-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+	border-radius:100px;
+	border-radius:30px;
+	margin: 15px 32px !important;
+	img {
+		padding: 17px;
+	}
+}
+.icono:hover {
+	background: #388538 !important;
+	border: solid 5px #143114;
+}
+/*.bloque-relacionados .block-title {
+	background: #e8e8e8;
+	color: #1a6234;
+	min-height: 40px;
+
+}
+.efecto-transition:hover {
+	box-shadow: 7px 7px 12px #B6B6B6;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	-o-transition: all 0.7s ease;
+	-ms-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}*/
+.block-title {
+	text-align:center;
+	background:#388538;
+	color:#ffffff;
+	text-transform:uppercase;
+	margin-bottom: 0px;
+
+}
+.view-asociados, .view-clon-de-asociados {
+	ul {
+		li {
+			margin: 0 !important;
+			list-style: none !important;
+		}
+	}
+	.large-3.columns {
+		text-align: center;
+	}
+}
+.view.view-enlaces-de-interes {
+	border: solid 1px #C0C0C0;
+	background-color:#fff;
+	padding-top: 1px;
+	text-align: center;
+
+}
+.flex-control-nav {
+	display:none;
+}
+.flexslider {
+	margin: 0 0 10px;
+}
+.title-area:hover, {
+	background-color:$primary-color;
+	margin-left:8%;
+}
+.title-area, {
+	margin-left:9% !important;
+	min-width: 128px;
+}
+.breadcrumbs {
+	margin-top: 10px;
+	a {
+		color:#fff;
+	}
+	> *.current a {
+		cursor: default;
+		color: #BDBDBD;
+	}
+}
+.first.leaf, ,.leaf, .last.leaf { 
+	a {
+		color: #fff;
+		height: 45px;
+		line-height: 29px;
+	}
+	a:hover {
+		color:#fff;
+	}
+}
+#main-menu {
+	width: 65%;
+	background: $secondary-color;
+	li {
+		min-width: 128px;
+	}
+}
+.imagen-relacionados {
+	padding: 20px 0%;
+	//min-height:100px;
+
+}
+.img-videos {
+	/*min-width: 215px !important;
+	max-width: 215px !important;
+	height:175px;*/
+}
+.view.view-videos {
+  .item-list {
+  	text-align: center;
+  	.elemento-lista {
+  		background-color: #fff;
+			list-style: none;
+			margin: 5px 1%;
+			min-height: 280px;
+			width: 23%;
+			.img-video {
+				margin-top: 14px;
+				text-align: center;
+			}
+			.views-field-title {
+				margin-top: 14px;
+				font-size: 90%;
+			}
+  	}
+  	.elemento-lista:hover {
+  		-webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.35);
+			-moz-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.35);
+			box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.35);
+			text-decoration: underline;
+  	}
+  }
+}
+.panel-estilo {
+	//background: #D5D5D5;
+	border: solid 1px #e8e8e8;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	text-align: justify;
+	h2 {
+		color: $primary-color;
+	}
+}
+.panel-estilo:hover {
+	border: solid 1px #A0A0A0;
+	background: #D5D5D5;
+	-webkit-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  transition: all 700ms ease;
+}
+.l-footer {
+	background: $primary-color;
+}
+.sociales {
+	p {
+		margin-top:50px;
+	}
+	a {
+  	margin-left: 10%;
+	}
+}
+.detalles-sitio {
+	p {
+		color: #fff;
+	}
+	a {
+		color: #fff;
+		text-decoration: underline;
+	}
+}
+/*.top-bar-section ul li > a.active {
+	background: #fff;
+	color: $primary-color;
+}*/
+.top-bar-section .dropdown li a {
+	color:#fff;
+}
+.view.view-clon-de-asociados .views-field.views-field-title,.view.view-asociados .views-field.views-field-title {
+  height: 50px;
+}
+.view.view-asociados {
+	.views-row {
+		min-height: 200px;
+	}
+}

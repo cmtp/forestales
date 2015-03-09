@@ -1,0 +1,132 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the body font size on small devices */
+html {
+  font-size: 112.5%;
+}
+
+#branding {
+	float: none !important;
+}
+
+#logo {
+	margin: auto !important;
+	width: 30%;
+}
+
+#nav-wrapper {
+	float: none;
+	margin-top:0px;
+	margin-left: 0px;
+	width: 40%;
+	margin: auto;
+}
+
+  #region-preface1, #region-preface2, #region-preface3{
+	float: none;
+   width: 100%;
+  }
+  
+  #fotos img {
+	width: 95%;
+	margin: 0px;	
+}
+
+#slider img {
+	border: 0px !important;
+}
+
+#slider h1{
+	font-size: 25px;
+}
+  
+#main-content h1 {
+	font-size: 25px;
+	text-align: center;
+}
+
+#fotos h2 {
+	font-size: 22px;
+	text-align: center;
+}
+
+#fotos img{
+	margin-bottom: 5px;
+	width: 97%;
+}
+
+#block-block-6 {
+	text-align: center;
+	width: 65%;
+	font-size: 16px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.image-style-servicio {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.views-column-galeria{
+	width: 88% !important;
+}
+
+.views-column-galeria img {
+	border: 0px solid white !important;
+}
+
+.views-column-first-galeria {
+margin-right: 0px !important;
+}
+
+#columns {
+	width: 95%;
+	margin: auto;
+}
+
+
+.responsive-menus.responsified span.toggler, .responsive-menus.responsified .responsive-menus-simple{
+	background: #003300;
+}
+
+#block-block-5 {
+width: 100%;
+float: left;
+text-align: center;
+}
+
+#block-block-4 {
+width: 100%;
+float: left;
+}
+
+#block-superfish-2 {
+width: 100%;
+float: left;
+}
+
+.responsive-menus.responsified .responsive-menus-simple li a.active{
+	background: #005b00 !important;
+}
+
+#rm-removed .block-inner.clearfix{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.views-field.views-field-field-descripci-n {
+	position: absolute;
+	top: 80px;
+	right: 5px;
+	color: white;
+	font-size: 20px;
+}

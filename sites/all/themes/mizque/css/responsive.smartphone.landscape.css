@@ -1,0 +1,263 @@
+/*
+ *   Important Information about this CSS File
+ *
+ * - Do not delete or rename this file, if you do not use it leave it blank (delete
+ *   everything) and the file will be skipped when you enable Production Mode in
+ *   the Global theme settings.
+ *
+ * - Read the _README file in this directory, it contains useful help and other information.
+ */
+/* Increase the body font size on small devices */
+html {
+  font-size: 112.5%;
+}
+
+#menu-principal {
+	background: #143114;
+	color: white;
+	min-height: 50px !important;
+}
+
+.mean-container .mean-nav ul li {
+	position: relative;
+	float: left;
+	width: 100%;
+	background: #143114;
+}
+
+.mean-container .mean-nav ul li a{
+	padding: 10px 5%;
+}
+
+.mean-container .mean-bar {
+	width: 99%;
+	background: #143114;
+}
+
+#branding {
+	float: none !important;
+}
+
+#logo {
+	margin: auto !important;
+	width: 20%;
+}
+
+#contenido .container {
+margin-top: -50px !important;
+}
+
+.views-field.views-field-field-banner-descripcion {
+	z-index: 3;
+	position: absolute;
+	bottom: 15%;
+	right: 10%;
+	color: white;
+	font-size:30px;
+	font-weight: lighter;
+	text-shadow: 1px 1px #000000;
+}
+
+.flex-control-nav {
+	bottom: -20px;
+}
+
+#nav-wrapper {
+	float: none;
+	margin-top:0px;
+	margin-left: 0px;
+	width: 40%;
+	margin: auto;
+}
+
+ #region-preface1, #region-preface2, #region-preface3{
+	float: none;
+	width: 99%;
+	margin-top: 10px;
+	margin-left: 0px !important;
+	margin: auto !important;
+	margin-bottom: 10px !important;
+ }  
+ 
+.region.region-preface1:hover, .region.region-preface2:hover, .region.region-preface3:hover {
+	box-shadow: none !important;
+}
+
+#icono {
+	background:#388538 !important;
+	border: solid 1px #030202;
+	width: 105px;
+	height: 105px;
+	float: left;
+	text-align: justify;
+	border-radius: 100px;
+	margin: 15px 10% !important;
+}
+
+#icono img {
+	padding: 17px;
+}
+
+#icono:hover{
+	background:#388538 !important;
+	border: solid 1px #e8e8e8;
+}
+  
+  #fotos img {
+	width: 95%;
+	margin: 0px;	
+}
+
+#cabecera .block-inner.clearfix {
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+#slider img {
+	border: 0px !important;
+}
+
+#slider h1{
+	font-size: 25px;
+}
+
+.flex-direction-nav .flex-prev {
+width: 45px;
+height: 39px;
+background: url(images/left.png) no-repeat 5px -50px;
+}
+
+
+.flex-direction-nav .flex-next {
+width: 45px;
+height: 38px;
+background: url(images/right.png) no-repeat -4px -50px;
+}
+  
+#main-content h1 {
+	font-size: 25px;
+	text-align: center;
+}
+
+#main-content {
+	padding-right: 0px !important;
+}
+
+.region.region-two-50-first {
+	max-width: 35%;
+	margin: auto;
+}
+
+.region.region-two-50-second {
+	font-size: 12px;
+	text-align: center;
+}
+
+#fotos h2 {
+	font-size: 22px;
+	text-align: center;
+}
+
+#fotos img{
+	margin-bottom: 5px;
+	width: 97%;
+}
+
+#block-block-6 {
+	text-align: center;
+	width: 100% !important;
+	font-size: 16px;
+	margin: 0% 0% 0% 0% !important;
+}
+
+#block-system-main-menu {
+	width: 100% !important;
+	float: none !important;
+}
+
+.image-style-servicio {
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.views-column-galeria{
+	width: 88% !important;
+}
+
+.views-column-galeria img {
+	border: 0px solid white !important;
+}
+
+.views-column-first-galeria {
+margin-right: 0px !important;
+}
+
+#columns {
+	width: 95%;
+	margin: auto;
+}
+
+
+.responsive-menus.responsified span.toggler, .responsive-menus.responsified .responsive-menus-simple{
+	background: #003300;
+}
+
+#block-block-5 {
+width: 100%;
+float: left;
+text-align: center;
+}
+
+#block-block-4 {
+width: 106% !important;
+float: left;
+}
+
+#block-superfish-2 {
+width: 100%;
+float: left;
+}
+
+.responsive-menus.responsified .responsive-menus-simple li a.active{
+	background: #005b00 !important;
+}
+
+#rm-removed .block-inner.clearfix{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.views-field.views-field-field-descripci-n {
+	position: absolute;
+	top: 80px;
+	right: 5px;
+	color: white;
+	font-size: 20px;
+}
+
+.region.region-footer {
+	width: 95%;
+	margin: auto;
+}
+
+#block-block-6 .content a:link, #block-block-6 .content a:visited {
+padding: 7px 30px;
+margin-right: 13px;
+margin-bottom:30px;
+
+}
+
+#block-block-7 {
+max-width: 100% !important;
+float: none;
+margin: auto;
+margin-bottom: 0px !important;
+min-height: 50px;
+padding-left: 0% !important;
+padding-right: 0% !important;
+}
+
+#responsiva {
+overflow: auto !important;
+}
